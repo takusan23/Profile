@@ -2,11 +2,10 @@ module.exports = {
   publicPath: './',
   outputDir: 'docs',
   pwa: {
-    name: 'Profile',
-    themeColor: '80D8FF',
-    iconPaths: {
-      favicon32: 'img/icons/icon_32.png',
-      favicon16: 'img/icons/icon_16.png',
+    name: "Profile",
+    themeColor: '#80D8FF',
+    manifestOptions: {
+      background_color: "#80D8FF",
     }
   }
 }
